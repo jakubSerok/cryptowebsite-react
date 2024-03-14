@@ -14,7 +14,7 @@ const Trending = () => {
 
   return (
     <div className="py-8 my-12 rounded-div text-primary">
-      <h1 className="py-4 text-2xl font-bold">Trending Coins</h1>
+      <h1 className="py-4 text-2xl font-bold">TrendingCoins</h1>
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {trending.map((coin, idx) => (
           <div
