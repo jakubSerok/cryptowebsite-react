@@ -65,7 +65,7 @@ Ten projekt jest dostępny na licencji MIT. Więcej informacji znajdziesz w plik
 
 ## 👨‍💻 Autor
 
-Jakub Sieroń
+Jakub Serok
 
 ## 📧 Kontakt
 
