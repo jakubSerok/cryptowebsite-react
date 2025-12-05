@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# KryptoTracker - Śledź Kursy Kryptowalut
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img src="/public/logo192.png" alt="KryptoTracker Logo" width="120" />
+  
+  [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
+  [![React Router](https://img.shields.io/badge/React_Router-6.22.2-CA4245?logo=react-router&logoColor=white)](https://reactrouter.com/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3.0-06B6D4?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+  [![CoinGecko API](https://img.shields.io/badge/CoinGecko_API-v3-8CC63B?logo=coingecko&logoColor=white)](https://www.coingecko.com/pl/api/documentation)
+</div>
 
-## Available Scripts
+## 📋 Opis Projektu
 
-In the project directory, you can run:
+KryptoTracker to nowoczesna aplikacja internetowa stworzona w React, która umożliwia śledzenie aktualnych kursów kryptowalut w czasie rzeczywistym. Aplikacja korzysta z zewnętrznego API CoinGecko, aby dostarczać użytkownikom aktualne dane rynkowe, wykresy cen oraz informacje o trendach.
 
-### `npm start`
+## ✨ Funkcje
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🚀 Śledzenie cen 100 najpopularniejszych kryptowalut
+- 📊 Interaktywne wykresy cenowe z użyciem react-sparklines
+- 🌓 Tryb jasny/ciemny z możliwością przełączania
+- 🔍 Zaawansowane wyszukiwanie kryptowalut
+- 📱 Responsywny design działający na różnych urządzeniach
+- 🔒 System uwierzytelniania użytkowników (logowanie/rejestracja)
+- 💰 Personalizowany panel użytkownika
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Technologie
 
-### `npm test`
+- **Frontend**: React 18
+- **Stylowanie**: Tailwind CSS
+- **Routing**: React Router v6
+- **Wykresy**: React Sparklines
+- **API**: CoinGecko API
+- **Ikony**: React Icons
+- **Zarządzanie stanem**: React Context API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Uruchomienie projektu lokalnie
 
-### `npm run build`
+1. Sklonuj repozytorium:
+   ```bash
+   git clone https://github.com/TwojaNazwaUzytkownika/cryptowebsite-react.git
+   cd cryptowebsite-react
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Zainstaluj zależności:
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Uruchom serwer deweloperski:
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Otwórz przeglądarkę pod adresem: [http://localhost:3000](http://localhost:3000)
 
-### `npm run eject`
+## 🔧 Konfiguracja
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Aplikacja korzysta z darmowego API CoinGecko. Domyślnie używane jest publiczne API, ale zalecane jest zarejestrowanie własnego klucza API na stronie [CoinGecko](https://www.coingecko.com/pl/api/documentation) w przypadku większego ruchu.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📄 Licencja
 
-## Learn More
+Ten projekt jest dostępny na licencji MIT. Więcej informacji znajdziesz w pliku [LICENSE](LICENSE).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 👨‍💻 Autor
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Jakub Sieroń
 
-### Code Splitting
+## 📧 Kontakt
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Masz pytania lub sugestie? Skontaktuj się ze mną przez:
+- Email: twój.email@example.com
+- LinkedIn: [linkedin.com/in/twojprofil](https://www.linkedin.com/in/twojprofil)
+- GitHub: [@twojanazwauzytkownika](https://github.com/twojanazwauzytkownika)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+  Dziękuję za zainteresowanie moim projektem! Jeśli podoba Ci się to, co stworzyłem, rozważ postawienie gwiazdki ⭐ na GitHubie.
+</div>
